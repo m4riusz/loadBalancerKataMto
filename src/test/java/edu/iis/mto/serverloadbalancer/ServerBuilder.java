@@ -15,4 +15,8 @@ public class ServerBuilder {
         this.capacity = capacity;
         return this;
     }
+
+    public static ServerBuilder server() {
+        return new ServerBuilder();
+    }
 }
